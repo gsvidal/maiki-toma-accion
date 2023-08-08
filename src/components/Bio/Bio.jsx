@@ -2,7 +2,10 @@ export const Bio = () => {
   return (
     <>
       <p>Hola, si NO te suena las siguientes frases:</p>
-      <p>Mami, comidita? o Papi, te quiero invitar comida! o en caso nunca hayas visto mis saltos con la capa andina...</p>
+      <p>
+        Mami, comidita? o Papi, te quiero invitar comida! o en caso nunca hayas
+        visto mis saltos con la capa andina...
+      </p>
       <p>
         Me presento, soy{" "}
         <strong>
@@ -23,7 +26,7 @@ export const Bio = () => {
         Alguna vez llegaste a casa luego del trabajo y les dijiste a tu pareja e
         hij@s, no sabes lo que me sucedio hoy!!, con tu suscripción{" "}
         <strong>
-          tú estás creando esos momentos a esas personas y sus familias
+          estarás creando esos inolvidables momentos para esas personas y sus familias
         </strong>
       </p>
     </>

@@ -1,7 +1,7 @@
-export const Header = ({ setPage }) => {
-  const handlePage = (event) => {
-    setPage(event.target.id);
-  };
+import { Link } from "react-router-dom";
+
+export const Header = () => {
+
   return (
     <>
       <header>
@@ -12,10 +12,16 @@ export const Header = ({ setPage }) => {
           height="60"
         />
         <nav>
-          <ul onClick={handlePage}>
-            <li id="subscribe">Suscríbete!</li>
-            <li id="bio">Quien es Maiki</li>
-            <li id="contact">Contacto</li>
+          <ul>
+            <li>
+              <Link to="/suscripcion">Suscríbete!</Link>
+            </li>
+            <li>
+              <Link to="/maiki">Quien es Maiki</Link>
+            </li>
+            <li>
+              <Link to="/contacto">Contacto</Link>
+            </li>
           </ul>
         </nav>
       </header>
