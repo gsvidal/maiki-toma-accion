@@ -1,16 +1,16 @@
-import { useState } from "react";
 import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { AppRoutes } from "./AppRoutes";
+import { useEffect } from "react";
 
 function App() {
-  const [page, setPage] = useState("subscribe");
-
   return (
     <>
       <Header />
-      <AppRoutes />
+      <main className="main">
+        <AppRoutes />
+      </main>
       <Footer />
     </>
   );

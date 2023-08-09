@@ -1,0 +1,101 @@
+.main {
+  position: relative;
+}
+
+.bio__img {
+  margin-top: 1000px;
+  position: relative;
+  z-index: 1;
+}
+
+.maiki-blob {
+  position: absolute;
+  top: 980px;
+  left: calc(50vw - 300px);
+  z-index: 0;
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  background: url("../../assets/maiki-blob.svg") center/cover no-repeat;
+  opacity: 0.5;
+}
+
+.bio__copy {
+  color: white;
+}
+
+.copy--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.copy--1 p {
+  margin: 30px 0;
+}
+
+.copy .copy--1-title {
+  font-size: 2.5rem;
+  margin: 90px 0;
+}
+
+.copy--1-subtitle {
+  font-size: 2rem;
+}
+
+.copy--2 p {
+  margin-top: 100px;
+}
+.prizes {
+  position: relative;
+}
+
+.prizes::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Adjust this value to position the image properly */
+  left: 60px; /* Adjust this value to position the image properly */
+  width: 155px; /* Adjust the dimensions of the image */
+  height: 85px; /* Adjust the dimensions of the image */
+  background: url("https://i.postimg.cc/vHsyKYSM/prizes.png") center/cover
+    no-repeat; /* Replace 'image.jpg' with your actual image path */
+  opacity: 0;
+  transition: all 0.3s ease;
+  transform: scale(0.1);
+}
+.prizes:hover::before {
+  transition: all 0.6s ease;
+  top: -90px;
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media screen and (min-width: 800px) {
+  .bio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .bio__img {
+    top: 230px;
+    width: calc(30vw);
+    height: calc(40vw);
+    max-width: 360px;
+    max-height: 480px;
+    margin: 0;
+  }
+
+  .maiki-blob {
+    top: 200px;
+    left: -20px;
+    width: 50vw;
+    height: 50vw;
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .copy--1 {
+    position: static;
+  }
+}

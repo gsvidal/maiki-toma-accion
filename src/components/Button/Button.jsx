@@ -1,3 +1,5 @@
+import './Button.css';
+
 export const Button = ({ children }) => {
-  return <button>{children}</button>;
+  return <button className='button'>{children}</button>;
 };
