@@ -1,0 +1,92 @@
+.subscription {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.story {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  margin: 40px 0;
+}
+
+.maiki-video iframe {
+  width: 50vw;
+  height: 90vw;
+}
+
+.subs-copy {
+  margin: 10px;
+}
+
+.subs-icons {
+  font-style: normal;
+}
+
+.benefits-item {
+  margin: 25px 0;
+  list-style: square;
+  text-align: left;
+}
+
+.subs__step {
+  margin: 70px 0;
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff43;
+  border-radius: 8px;
+}
+
+.subs__step li {
+  list-style: disc;
+  text-align: left;
+  margin: 15px 0;
+}
+
+ul.subs__step {
+  padding-left: 50px;
+}
+.subs-banks {
+  text-align: center;
+}
+.subs-bank-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.subs-bank-icon {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  margin-right: 20px;
+  background: url("../../assets/bcp.png") center/cover no-repeat;
+}
+
+.subs-bank-icon--bbva {
+  background-image: url("../../assets/bbva.jpg");
+}
+
+.subs-bank-icon--ibk {
+  background-image: url("../../assets/ibk.jpg");
+}
+
+@media screen and (min-width: 800px) {
+  .subscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .subs-copy {
+    margin: 30px;
+  }
+
+  .maiki-video iframe {
+    width: 350px;
+    height: 623px;
+    margin-top: 100px;
+  }
+}

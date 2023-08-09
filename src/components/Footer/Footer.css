@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 150px;
+  padding: 20px 0;
+}
+
+.social__links {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.social__item {
+  margin: 0 40px;
+}
+
+.social__logo {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url("../../assets/tiktok-logo.svg") center/cover no-repeat;
+  transition: 0.25s linear;
+}
+.social__logo:hover {
+  transform: scale(1.2);
+}
+
+.social__logo--ig {
+  background-image: url("../../assets/instagram-logo.svg");
+}
+
+.social__logo--yt {
+  background-image: url("../../assets/youtube-logo.svg");
+}
