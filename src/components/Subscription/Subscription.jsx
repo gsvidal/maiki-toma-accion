@@ -49,8 +49,8 @@ export const Subscription = () => {
         <h3 className="subs__step">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdU_tdx4VT4blgrBoEAQ8yYuVQPnnhEY4Hu9XLDUC5SP96_-A/viewform?usp=sf_link"
-            className="nav__item"
             rel="noopener"
+            className="google-form"
             target="_blank"
           >
             Primer paso: Déjame tus datos{" "}

@@ -19,10 +19,11 @@
   width: 60px;
   height: 60px;
   background: url("../../assets/tiktok-logo.svg") center/cover no-repeat;
-  transition: 0.25s linear;
+  transition: 0.25s ease;
 }
 .social__logo:hover {
   transform: scale(1.2);
+  transition: 0.1s ease-in;
 }
 
 .social__logo--ig {
