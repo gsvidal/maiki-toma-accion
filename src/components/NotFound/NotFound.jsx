@@ -7,7 +7,7 @@ export const NotFound = () => {
       <h1>Esta página no existe :&#40;</h1>
       <Button>
         {" "}
-        <Link to="/">Página Principal</Link>
+        <Link to="/" className="link-button">Página Principal</Link>
       </Button>
     </>
   );

@@ -7,10 +7,11 @@
   display: flex;
   justify-content: center;
   padding: 0;
+  margin: 40px 0;
 }
 
 .social__item {
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 .social__logo {
@@ -30,4 +31,10 @@
 
 .social__logo--yt {
   background-image: url("../../assets/youtube-logo.svg");
+}
+
+@media screen and (min-width: 800px) {
+  .social__item {
+    margin: 0 40px;
+  }
 }

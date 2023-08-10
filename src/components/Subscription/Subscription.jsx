@@ -19,7 +19,9 @@ export const Subscription = () => {
         </h3>
         <ol className="benefits-list">
           <li className="benefits-item">
-            Increíbles premios exclusivos{" "}
+            <strong className="strong-red">
+              Increíbles premios exclusivos
+            </strong>
             <span className="subs-icons">💻📱✈💰</span>
           </li>
           <li className="benefits-item">
@@ -54,7 +56,7 @@ export const Subscription = () => {
         </h3>
         <h3>Segundo paso:</h3>
         <ul className="subs__step">
-          <li>Costo de suscripción: S/7.90</li>
+          <li>Costo de suscripción: S/8.90</li>
           <li>Habrá un sorteo principal y otro secundario cada mes.</li>
           <li>Asegúrate de mandar tu voucher al XXX por whatsapp.</li>
           <li>
@@ -83,16 +85,19 @@ export const Subscription = () => {
         <div className="subs-banks subs__step">
           <p>Nombre: Antonieta Amasifuen</p>
           <p className="subs-bank-item">
-            <span className="subs-bank-icon subs-bank-icon--bcp"></span> Banco
-            de Credito del Perú <span>CTA: 19343513977</span>
+            <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP<span>19343513977</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bbva"></span> BBVA{" "}
-            <span>CTA: 0011016543231</span>
+            <span>0011016543231</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--ibk"></span>{" "}
-            Interbank <span>CTA: 514343513515</span>
+            Interbank <span>514343513515</span>
+          </p>
+          <p className="subs-bank-item">
+            <span className="subs-bank-icon subs-bank-icon--yape"></span>{" "}
+            <span className="subs-bank-icon subs-bank-icon--plin"></span> <span>XXXXX</span>
           </p>
         </div>
         <p className="subs__step">

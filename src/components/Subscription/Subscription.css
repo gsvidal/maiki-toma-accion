@@ -56,12 +56,14 @@ ul.subs__step {
   justify-content: space-between;
   margin-top: 50px;
 }
+.subs-bank-item span{
+  width: 120px;
+}
 .subs-bank-icon {
   display: inline-block;
   width: 80px;
   height: 50px;
-  margin-right: 20px;
-  background: url("../../assets/bcp.png") center/cover no-repeat;
+  background: url("../../assets/bcp.png") center/contain no-repeat;
 }
 
 .subs-bank-icon--bbva {
@@ -69,7 +71,15 @@ ul.subs__step {
 }
 
 .subs-bank-icon--ibk {
-  background-image: url("../../assets/ibk.jpg");
+  background-image: url("../../assets/ibk.png");
+}
+
+.subs-bank-icon--yape {
+  background-image: url("../../assets/yape-logo.png");
+}
+
+.subs-bank-icon--plin {
+  background-image: url("../../assets/plin-logo.png");
 }
 
 @media screen and (min-width: 800px) {

@@ -1,10 +1,16 @@
 :root {
   font-family: "Lato", sans-serif;
-  font-style: italic;
-  --main-color: #8b51fd;
+  font-size: 62.5%;
+  --main-color: rgb(139, 81, 253);
   --main-color-op50: #8a51fd85;
   --main-color-bio: #e0d0ff;
   --main-color-bio-dark: #c2a4ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {

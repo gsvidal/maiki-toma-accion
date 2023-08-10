@@ -17,12 +17,12 @@ export const Contact = () => {
         esperanza y motivación.
       </h2>
       <h2>Si tú también quieres ser parte de este movimiento...</h2>
-      <h3>Si eres usuario de Tiktok:</h3>
-      <Link to="/suscripcion">
+      <h3>Personas:</h3>
+      <Link to="/suscripcion" className="link-button">
         <Button>Suscríbete</Button>
       </Link>
 
-      <h3>Si eres una empresa y nos quieres contactar:</h3>
+      <h3>¿Eres una empresa y nos quieres contactar?</h3>
       <h4>Escríbenos a tomaaccionwiu@gmail.com</h4>
     </>
   );

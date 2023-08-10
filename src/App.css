@@ -5,6 +5,8 @@
   text-align: center;
   font-size: 1.6rem;
   height: 100%;
+  overflow: hidden;
+  min-width: 300px;
 }
 
 .main {
@@ -21,14 +23,4 @@ ul li {
 }
 
 @media screen and (min-width: 800px) {
-  /* .main {
-    padding: 70px;
-    padding-bottom: 0;
-    background-image: linear-gradient(
-      to right,
-      white 25%,
-      var(--main-color-bio) 25%,
-      var(--main-color-bio) 100%
-    );
-  } */
 }

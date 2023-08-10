@@ -2,26 +2,78 @@
   position: relative;
 }
 
-.bio__img {
+.maiki-figure {
   margin-top: 1000px;
+}
+
+.bg-name-trans {
+  position: absolute;
+  top: 915px;
+  left: 40px;
+  transform: translateX(-100%);
+  display: inline-block;
+  width: 60vw;
+  height: calc(60vw / 2.65);
+  background: url("../../assets/bg-trans-1.png") center/cover no-repeat;
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+.bg-name-trans--2 {
+  top: 930px;
+  left: 30px;
+  background-image: url("../../assets/bg-trans-2.png");
+  transform: translateX(100%);
+  width: 80vw;
+  height: calc(80vw / 2.5);
+}
+
+.bg-name-text {
+  font-family: "Caveat", cursive;
+  margin-top: 5vw;
+  font-size: 2.85rem;
+  color: black;
+  transform: rotate(-18deg);
+}
+
+.bg-name-text--2 {
+  margin-left: 25vw;
+  margin-top: 4vw;
+  font-size: 4rem;
+  transform: rotate(-18deg);
+}
+
+.bio__img {
   position: relative;
+  top: 0px;
+  left: 20px;
   z-index: 1;
+  width: 80%;
+  height: 80%;
 }
 
 .maiki-blob {
   position: absolute;
-  top: 980px;
-  left: calc(50vw - 300px);
+  top: 1025px;
+  left: 20px;
   z-index: 0;
   display: inline-block;
-  width: 600px;
-  height: 600px;
+  width: 82.5vw;
+  height: 82.5vw;
+  max-width: 600px;
+  max-height: 600px;
   background: url("../../assets/maiki-blob.svg") center/cover no-repeat;
   opacity: 0.5;
 }
 
+.show {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
 .bio__copy {
   color: white;
+  margin-top: 50px;
 }
 
 .copy--1 {
@@ -36,11 +88,13 @@
 
 .copy .copy--1-title {
   font-size: 2.5rem;
-  margin: 90px 0;
+  margin: 50px 0;
+  font-style: italic;
 }
 
-.copy--1-subtitle {
+.copy .copy--1-subtitle {
   font-size: 2rem;
+  margin-top: 100px;
 }
 
 .copy--2 p {
@@ -70,11 +124,88 @@
   transform: scale(1);
 }
 
+@media screen and (min-width: 360px) {
+  .maiki-figure {
+    margin-top: 900px;
+  }
+  .bg-name-text {
+    margin-top: 6.1vw;
+    font-size: 3rem;
+  }
+
+  .bg-name-text--2 {
+    margin-top: 6vw;
+    font-size: 4.5rem;
+  }
+  .bg-name-trans {
+    top: 805px;
+  }
+  .bg-name-trans--2 {
+    top: 825px;
+  }
+  .maiki-blob {
+    top: 925px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .bg-name-text {
+    margin-top: 7vw;
+    font-size: 3.5rem;
+  }
+
+  .bg-name-text--2 {
+    margin-top: 7vw;
+    font-size: 5rem;
+  }
+
+  .bg-name-trans {
+    top: 805px;
+  }
+
+  .bg-name-trans--2 {
+    top: 825px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .bio {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .maiki-figure {
+    margin-top: 0px;
+  }
+  .bg-name-trans {
+    transform: translateY(-100%);
+    top: 155px;
+    left: 0;
+    width: 230px;
+    height: calc(230px / 2.65);
+  }
+
+  .bg-name-trans--2 {
+    top: 155px;
+    left: 0;
+    width: 350px;
+    height: calc(350px / 2.5);
+  }
+
+  .show {
+    transform: translateY(0%);
+  }
+
+  .bg-name-text {
+    margin-top: 20px;
+    font-size: 3.5rem;
+  }
+
+  .bg-name-text--2 {
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 5rem;
   }
 
   .bio__img {
@@ -97,5 +228,32 @@
 
   .copy--1 {
     position: static;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bg-name-trans {
+    top: 110px;
+    left: 0;
+    width: 400px;
+    height: calc(400px / 2.65);
+  }
+
+  .bg-name-trans--2 {
+    top: 125px;
+    left: 0;
+    width: 600px;
+    height: calc(600px / 2.5);
+  }
+
+  .bg-name-text {
+    margin-top: 50px;
+    font-size: 3.5rem;
+  }
+
+  .bg-name-text--2 {
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 6rem;
   }
 }
