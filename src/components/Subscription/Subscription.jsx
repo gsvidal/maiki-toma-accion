@@ -20,19 +20,23 @@ export const Subscription = () => {
         <ol className="benefits-list">
           <li className="benefits-item">
             <strong className="strong-red">
-              Increíbles premios exclusivos
+              Premiazos exclusivos que te dejarán boquiabierto
             </strong>
-            <span className="subs-icons">💻📱✈💰</span>
+            <span className="subs-icons">🎧🎮💻📱✈💰</span>
           </li>
           <li className="benefits-item">
-            Platos preparados por mi (Maiki) con mensaje personalizado
+            Platillos cocinados por mí (Maiki) con cariño y un mensaje de mi
+            corazón
             <span className="subs-icons">🍝🍛🍗</span>
           </li>
           <li className="benefits-item">
-            Satisfacción de llevar ayuda al prójimo/mascota de la calle
+            La sensación increíble de dar una mano al prójimo y a los peludos
+            callejeros
             <span className="subs-icons">💜👴🐶🐱</span>
           </li>
-          <li className="benefits-item">Y muchas otras cosas más...</li>
+          <li className="benefits-item">
+            ¡Y espera, hay más...! <span className="subs-icons">😉</span>
+          </li>
         </ol>
         {/* <p className="story">
           ¿Alguna vez llegaste a casa luego del trabajo y le dijiste a tu
@@ -44,51 +48,57 @@ export const Subscription = () => {
           esas personas y sus familias.
         </p> */}
         <p>
-          Tú ya nos conoces, ahora te toca a ti!, gana con nosotros y a la vez ayudarás a llevar apoyo a más gente!
+          ¡Ya nos conoces, ahora te toca a ti! Únete a nosotros para ganar y al
+          mismo tiempo contribuir a llevar apoyo a quienes más lo necesitan.
         </p>
         <h3 className="subs__step">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdU_tdx4VT4blgrBoEAQ8yYuVQPnnhEY4Hu9XLDUC5SP96_-A/viewform?usp=sf_link"
-            className="nav__item"
             rel="noopener"
+            className="google-form"
             target="_blank"
           >
-            Primer paso: Déjame tus datos{" "}
-            <strong className="strong-red">aquí!</strong>
+            Primer paso: ¡Comparte tus datos{" "}
+            <strong className="strong-red">aquí mismo!</strong>
           </a>
         </h3>
         <h3>Segundo paso:</h3>
         <ul className="subs__step">
           <li>Costo de suscripción: S/8.90</li>
-          <li>Habrá un sorteo principal y otro secundario cada mes.</li>
-          <li>Asegúrate de mandar tu voucher al XXX por whatsapp.</li>
+          <li>Cada mes, habrá un sorteo principal y otro secundario.</li>
           <li>
-            El día que envías el voucher contará como tu primer día, y
-            participarás en el sorteo que esté agendado dentro de tu mes.
+            Asegúrate de enviar tu comprobante de pago al XXX a través de
+            WhatsApp.
           </li>
           <li>
-            Ejemplo: Si depositaste el día 03/08/2023 y lo envías ese mismo día
-            al número XXX por whatsapp, participarás en el/los sorteos que hayan
-            desde el día 04/08/2023 hasta el día 03/09/2023.
+            El día en que envíes el comprobante se considerará como tu primer
+            día de participación, y estarás incluido en el sorteo programado
+            para ese mes.
           </li>
           <li>
-            Los sorteos son en VIVO por Tiktok y el ganador se elegirá esté o no
-            en la transmisión.
+            Ejemplo: Si realizaste el depósito el 03/08/2023 y lo envías el
+            mismo día al número XXX a través de WhatsApp, participarás en el/los
+            sorteos programados desde el 04/08/2023 hasta el 03/09/2023.
           </li>
           <li>
-            Al día siguiente se subirá a nuestro canal de Tiktok el video del
-            sorteo.
+            Los sorteos se transmitirán en vivo a través de TikTok y el ganador
+            será elegido sin importar si está o no en la transmisión.
           </li>
           <li>
-            No hay ningún otro tipo de costo para los suscriptores, los
-            ganadores recibirán sus premios a la puerta de su casa o a donde nos
-            lo indiquen.
+            Al día siguiente, publicaremos en nuestro canal de TikTok el video
+            del sorteo.
+          </li>
+          <li>
+            No habrá ningún otro cargo para los suscriptores y los ganadores
+            recibirán sus premios en la comodidad de su hogar o en la dirección
+            que nos proporcionen.
           </li>
         </ul>
         <div className="subs-banks subs__step">
           <p>Nombre: Antonieta Amasifuen</p>
           <p className="subs-bank-item">
-            <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP<span>19343513977</span>
+            <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP
+            <span>19343513977</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bbva"></span> BBVA{" "}
@@ -100,14 +110,15 @@ export const Subscription = () => {
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--yape"></span>{" "}
-            <span className="subs-bank-icon subs-bank-icon--plin"></span> <span>XXXXX</span>
+            <span className="subs-bank-icon subs-bank-icon--plin"></span>{" "}
+            <span>XXXXX</span>
           </p>
         </div>
         <p className="subs__step">
-          Recuerda enviar tu voucher al XXXX por whatsapp!
+          Recuerda enviar tu comprobante de pago por WhatsApp al XXXX.
         </p>
         <p>
-          Y eso es todo!, nos vemos en el próximo sorteo{" "}
+          Y eso es todo, ¡nos vemos en el próximo sorteo!{" "}
           <span className="subs-icons">😊</span>
         </p>
         <article className="bank-data"></article>
