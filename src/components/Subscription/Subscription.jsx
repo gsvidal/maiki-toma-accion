@@ -35,7 +35,7 @@ export const Subscription = () => {
             <span className="subs-icons">💜👴🐶🐱</span>
           </li>
           <li className="benefits-item">
-            ¡Y espera, hay más! <span className="subs-icons">😉</span>
+            ¡Y espera, hay más...! <span className="subs-icons">😉</span>
           </li>
         </ol>
         {/* <p className="story">

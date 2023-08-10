@@ -6,6 +6,20 @@
   font-size: 2rem;
 }
 
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.header__logo {
+  animation: fade 2s infinite;
+}
+
 .nav__links {
   display: flex;
   justify-content: space-between;
@@ -18,7 +32,7 @@
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-  background: linear-gradient(90deg, var(--main-color-op50) 50%, #fff 0) 100% /
+  background: linear-gradient(90deg, var(--main-color-bio-dark) 50%, #fff 0) 100% /
     200% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
@@ -26,7 +40,6 @@
 }
 
 .nav__item:hover {
-  /* color: transparent; */
   background-position: 0% 100%;
 }
 
@@ -39,4 +52,91 @@
   text-decoration-color: white;
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.237);
+  padding: 9px;
+  border-radius: 4px;
+  z-index: 4;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.menu-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(to right, rgb(42, 42, 136), rgb(108, 17, 17));
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--main-color);
+    opacity: 0;
+    transition: all 0.2s ease-in;
+  }
+
+  .menu-bg.open {
+    display: block;
+  }
+
+  .nav__item {
+    color: transparent;
+  }
+
+  .menu.open {
+    top: 110px;
+    opacity: 1;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__links li {
+    margin: 35px 0;
+  }
 }

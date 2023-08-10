@@ -3,12 +3,12 @@
 }
 
 .maiki-figure {
-  margin-top: 1000px;
+  margin-top: 900px;
 }
 
 .bg-name-trans {
   position: absolute;
-  top: 915px;
+  top: 855px;
   left: 40px;
   transform: translateX(-100%);
   display: inline-block;
@@ -21,7 +21,7 @@
 }
 
 .bg-name-trans--2 {
-  top: 930px;
+  top: 870px;
   left: 30px;
   background-image: url("../../assets/bg-trans-2.png");
   transform: translateX(100%);
@@ -55,7 +55,7 @@
 
 .maiki-blob {
   position: absolute;
-  top: 1025px;
+  top: 900px;
   left: 20px;
   z-index: 0;
   display: inline-block;
@@ -137,7 +137,7 @@
 
 @media screen and (min-width: 360px) {
   .maiki-figure {
-    margin-top: 900px;
+    margin-top: 850px;
   }
   .bg-name-text {
     margin-top: 6.1vw;
@@ -155,7 +155,23 @@
     top: 825px;
   }
   .maiki-blob {
-    top: 925px;
+    top: 855px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .maiki-figure {
+    margin-top: 740px;
+  }
+  .bg-name-trans {
+    top: 685px;
+  }
+
+  .bg-name-trans--2 {
+    top: 705px;
+  }
+  .maiki-blob {
+    top: 770px;
   }
 }
 
@@ -170,12 +186,18 @@
     font-size: 5rem;
   }
 
+  .maiki-figure {
+    margin-top: 800px;
+  }
   .bg-name-trans {
-    top: 805px;
+    top: 705px;
   }
 
   .bg-name-trans--2 {
-    top: 825px;
+    top: 725px;
+  }
+  .maiki-blob {
+    top: 780px;
   }
 }
 
@@ -242,7 +264,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .bg-name-trans {
     top: 110px;
     left: 0;
