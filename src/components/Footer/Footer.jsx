@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <p>Puedes encontrarnos en:</p>
+        <p>Encuéntranos en:</p>
         <ul className="social__links">
           <li className="social__item">
             <a

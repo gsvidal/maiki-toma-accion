@@ -14,17 +14,17 @@ export const Contact = () => {
         Toma <span className="word-bg">Acción</span>
       </h1>
       <h2>
-        Nos dedicamos a llevar felicidad y un buen recuerdo a personas y
-        animalitos de la calle 🐶🐱, llevamos comidas 🍝🍛, bebidas  y un mensaje de
-        esperanza y motivación 💪.
+        Nuestra misión es llevar felicidad y dejar hermosos recuerdos en la vida
+        de personas y animalitos de la calle 🐶🐱. Brindamos comidas 🍝🍛,
+        bebidas y mensajes llenos de esperanza y motivación 💪.
       </h2>
-      <h2>Si tú también quieres ser parte de este movimiento...</h2>
+      <h2>¿Te gustaría unirte a este movimiento?</h2>
       <h3>Personas:</h3>
       <Link to="/suscripcion" className="link-button">
         <Button>Suscríbete</Button>
       </Link>
 
-      <h3>¿Eres una empresa y nos quieres contactar?</h3>
+      <h3>¿Eres una empresa y deseas ponerte en contacto con nosotros?</h3>
       <h4>Escríbenos a tomaaccionwiu@gmail.com</h4>
     </>
   );

@@ -93,6 +93,16 @@
   font-style: italic;
 }
 
+.sound-icon {
+  position: relative;
+  top: 7px;
+  left: 12px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../../assets/sound-icon.svg") center/cover no-repeat;
+}
+
 .copy .copy--1-subtitle {
   font-size: 2rem;
   margin-top: 100px;

@@ -5,7 +5,7 @@
     border-radius: 0;
   }
   70% {
-    opacity: .70;
+    opacity: 0.7;
   }
   100% {
     transform: translateY(-1000px) rotate(720deg);
@@ -25,10 +25,10 @@
   background: linear-gradient(
     135deg,
     #7a44de 10%,
-    #521cb5 35%,
-    #30237e 60%,
-    #0e2a47 85%,
-    #051b32 95%
+    #521cb5 30%,
+    #30237e 50%,
+    #0e2a47 70%,
+    #08213c 90%
   );
   overflow: hidden;
   z-index: -1;
