@@ -17,6 +17,7 @@
   background: url("../../assets/bg-trans-1.png") center/cover no-repeat;
   opacity: 0;
   transition: all 1.2s ease;
+  z-index: 1;
 }
 
 .bg-name-trans--2 {

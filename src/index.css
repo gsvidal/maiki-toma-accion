@@ -14,10 +14,9 @@
 }
 
 body {
-  background: url("./assets/bg-animated.svg") center/cover no-repeat;
+  /* background: url("./assets/bg-animated.svg") center/cover no-repeat; */
   color: white;
 }
 
 @media screen and (min-width: 1280px) {
-
 }

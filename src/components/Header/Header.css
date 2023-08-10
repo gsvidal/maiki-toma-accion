@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
+  font-size: 2rem;
 }
 
 .nav__links {
@@ -12,15 +13,21 @@
 
 .nav__item {
   margin: 0 15px;
-  color: white;
+  color: transparent;
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
+  background: linear-gradient(90deg, var(--main-color-op50) 50%, #fff 0) 100% /
+    200% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 0.4s;
 }
 
 .nav__item:hover {
-  color: var(--main-color);
+  /* color: transparent; */
+  background-position: 0% 100%;
 }
 
 .nav__item:active {
@@ -29,6 +36,7 @@
 
 .clicked {
   text-decoration: underline;
+  text-decoration-color: white;
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
 }

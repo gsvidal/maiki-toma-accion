@@ -34,14 +34,17 @@ export const Subscription = () => {
           </li>
           <li className="benefits-item">Y muchas otras cosas más...</li>
         </ol>
-        <p className="story">
+        {/* <p className="story">
           ¿Alguna vez llegaste a casa luego del trabajo y le dijiste a tu
           familia: "A que no sabes lo que me sucedio hoy{" "}
           <span className="subs-icons">🤩</span>!!".
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           Con tu suscripción estarás creando esos inolvidables momentos para
           esas personas y sus familias.
+        </p> */}
+        <p>
+          Tú ya nos conoces, ahora te toca a ti!, gana con nosotros y a la vez ayudarás a llevar apoyo a más gente!
         </p>
         <h3 className="subs__step">
           <a
