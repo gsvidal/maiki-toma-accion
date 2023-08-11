@@ -38,15 +38,6 @@ export const Subscription = () => {
             ¡Y espera, hay más...! <span className="subs-icons">😉</span>
           </li>
         </ol>
-        {/* <p className="story">
-          ¿Alguna vez llegaste a casa luego del trabajo y le dijiste a tu
-          familia: "A que no sabes lo que me sucedio hoy{" "}
-          <span className="subs-icons">🤩</span>!!".
-        </p> */}
-        {/* <p>
-          Con tu suscripción estarás creando esos inolvidables momentos para
-          esas personas y sus familias.
-        </p> */}
         <p>
           ¡Ya nos conoces, ahora te toca a ti! Únete a nosotros para ganar y al
           mismo tiempo contribuir a llevar apoyo a quienes más lo necesitan.

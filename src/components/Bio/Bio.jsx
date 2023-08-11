@@ -41,11 +41,11 @@ export const Bio = () => {
         <section className="copy copy--1">
           <p>Seguro que me conoces como la chica que dice:</p>
           <p className="copy--1-title">
-            "Mami, comidita 🍛?"
+            "Mamita, comidita? 🍝"
             <span className="sound-icon sound-icon--mami" onClick={play}></span>
           </p>
           <p className="copy--1-title">
-            "Papi, te quiero invitar comida 🍝!"
+            "Papito, comidita? 🍛"
             <span className="sound-icon sound-icon--papi" onClick={play2}></span>
           </p>
           <p className="copy--1-subtitle">
@@ -60,11 +60,11 @@ export const Bio = () => {
 
           <p>
             Te cuento un poco de mí. Nací en la Amazonía peruana 🐍🌴, soy
-            contadora de profesión 👩‍💼, emprendedora y voluntaria desde hace
+            contadora de profesión 👩‍💼, emprendedora y voluntaria en ONG's desde hace
             muchísimos años.
           </p>
           <p>
-            El lema que rige mi vida es: "Inspirar a otros para hacer el bien."{" "}
+            El lema que rige mi vida es: "Si tienes la oportunidad de compartir, toma acción!"{" "}
           </p>
         </section>
 
