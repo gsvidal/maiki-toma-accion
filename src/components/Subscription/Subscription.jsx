@@ -58,7 +58,7 @@ export const Subscription = () => {
           <li>Costo de suscripción: S/8.90</li>
           <li>Cada mes, habrá un sorteo principal y otro secundario.</li>
           <li>
-            Asegúrate de enviar tu comprobante de pago al XXX a través de
+            Asegúrate de enviar tu comprobante de pago al 906191636 a través de
             WhatsApp.
           </li>
           <li>
@@ -68,7 +68,7 @@ export const Subscription = () => {
           </li>
           <li>
             Ejemplo: Si realizaste el depósito el 03/08/2023 y lo envías el
-            mismo día al número XXX a través de WhatsApp, participarás en el/los
+            mismo día al 906191636 a través de WhatsApp, participarás en el/los
             sorteos programados desde el 04/08/2023 hasta el 03/09/2023.
           </li>
           <li>
@@ -102,11 +102,11 @@ export const Subscription = () => {
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--yape"></span>{" "}
             <span className="subs-bank-icon subs-bank-icon--plin"></span>{" "}
-            <span>XXXXX</span>
+            <span>906191636</span>
           </p>
         </div>
         <p className="subs__step">
-          Recuerda enviar tu comprobante de pago por WhatsApp al XXXX.
+          Recuerda enviar tu comprobante de pago por WhatsApp al 906191636.
         </p>
         <p>
           Y eso es todo, ¡nos vemos en el próximo sorteo!{" "}

@@ -101,6 +101,7 @@
   width: 30px;
   height: 30px;
   background: url("../../assets/sound-icon.svg") center/cover no-repeat;
+  cursor: pointer;
 }
 
 .copy .copy--1-subtitle {
