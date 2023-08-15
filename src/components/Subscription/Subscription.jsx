@@ -38,10 +38,11 @@ export const Subscription = () => {
             ¡Y espera, hay más...! <span className="subs-icons">😉</span>
           </li>
         </ol>
-        <p>
+        {/* <p>
           ¡Ya nos conoces, ahora te toca a ti! Únete a nosotros para ganar y al
           mismo tiempo contribuir a llevar apoyo a quienes más lo necesitan.
-        </p>
+        </p> */}
+        <h3>Primer paso:</h3>
         <h3 className="subs__step">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdU_tdx4VT4blgrBoEAQ8yYuVQPnnhEY4Hu9XLDUC5SP96_-A/viewform?usp=sf_link"
@@ -49,8 +50,7 @@ export const Subscription = () => {
             className="google-form"
             target="_blank"
           >
-            Primer paso: Llena tus datos{" "}
-            <strong className="strong-red">aquí mismo!</strong>
+            Llena tus datos <strong className="strong-red">aquí mismo!</strong>
           </a>
         </h3>
         <h3>Segundo paso:</h3>

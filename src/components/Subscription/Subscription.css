@@ -24,6 +24,10 @@
   font-style: normal;
 }
 
+.benefits-list {
+  margin: 50px 0 80px 0;
+}
+
 .benefits-item {
   margin: 25px 0;
   list-style: square;
@@ -133,7 +137,7 @@ ul.subs__step {
   
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1124px) {
   .maiki-video iframe {
     width: 350px;
     height: calc(350px * 1.78);
