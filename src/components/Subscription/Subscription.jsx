@@ -86,7 +86,7 @@ export const Subscription = () => {
           </li>
         </ul>
         <div className="subs__step subs-banks">
-          <p>Nombre: Antonieta Amasifen Apagueno</p>
+          <p>Nombre: Antonieta Apagueno Amasifen</p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP
             <span>19406556504030</span>
