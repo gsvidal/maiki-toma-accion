@@ -35,13 +35,10 @@ export const Subscription = () => {
             <span className="subs-icons">💜👴🐶🐱</span>
           </li>
           <li className="benefits-item">
-            ¡Y espera, hay más...! <span className="subs-icons">😉</span>
+            ¡Todo eso con solo 3 pasos:! <span className="subs-icons">😉</span>
           </li>
         </ol>
-        {/* <p>
-          ¡Ya nos conoces, ahora te toca a ti! Únete a nosotros para ganar y al
-          mismo tiempo contribuir a llevar apoyo a quienes más lo necesitan.
-        </p> */}
+
         <h3>Primer paso:</h3>
         <h3 className="subs__step">
           <a
