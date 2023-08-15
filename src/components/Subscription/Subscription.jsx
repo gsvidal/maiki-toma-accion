@@ -55,7 +55,7 @@ export const Subscription = () => {
         </h3>
         <h3>Segundo paso:</h3>
         <ul className="subs__step">
-          <li>Costo de suscripción: S/8.90</li>
+          <li>Costo de suscripción al mes: S/8.90</li>
           <li>Cada mes, habrá un sorteo principal y otro secundario.</li>
           <li>
             Asegúrate de enviar tu comprobante de pago al 906191636 a través de
