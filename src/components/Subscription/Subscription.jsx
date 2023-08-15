@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export const Subscription = () => {
   const embedCode =
-    '<iframe width="482" height="858" src="https://www.youtube.com/embed/ebgQyd1b5aE" title="Todos tenemos una amiga así 🫣👀 #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+    '<iframe width="498" height="886" src="https://www.youtube.com/embed/SYTKtG852PA" title="Suscríbete y haz la diferencia ☺️!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -80,7 +80,7 @@ export const Subscription = () => {
             del sorteo.
           </li>
           <li>
-            No habrá ningún otro cargo para los suscriptores y los ganadores
+            No habrá ningún otro costo para los suscriptores y los ganadores
             recibirán sus premios en la comodidad de su hogar o en la dirección
             que nos proporcionen.
           </li>
@@ -89,15 +89,15 @@ export const Subscription = () => {
           <p>Nombre: Antonieta Amasifuen</p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP
-            <span>19343513977</span>
+            <span>19406556504030</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bbva"></span> BBVA{" "}
-            <span>0011016543231</span>
+            <span>001108140247256305</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--ibk"></span>{" "}
-            Interbank <span>514343513515</span>
+            Interbank <span>8983379998030</span>
           </p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--yape"></span>{" "}
