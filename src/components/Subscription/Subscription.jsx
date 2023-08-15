@@ -85,7 +85,7 @@ export const Subscription = () => {
             que nos proporcionen.
           </li>
         </ul>
-        <div className="subs-banks subs__step">
+        <div className="subs__step subs-banks">
           <p>Nombre: Antonieta Amasifuen</p>
           <p className="subs-bank-item">
             <span className="subs-bank-icon subs-bank-icon--bcp"></span>BCP
@@ -105,8 +105,10 @@ export const Subscription = () => {
             <span>906191636</span>
           </p>
         </div>
-        <p className="subs__step">
-          Recuerda enviar tu comprobante de pago por WhatsApp al 906191636.
+        <h3>Tercer y último paso:</h3>
+        <p className="subs__step ">
+          <strong className="strong-red">Importante:</strong> Recuerda enviar tu
+          comprobante de pago por WhatsApp al 906191636.
         </p>
         <p>
           Y eso es todo, ¡nos vemos en el próximo sorteo!{" "}

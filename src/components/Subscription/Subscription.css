@@ -38,7 +38,6 @@
   border-radius: 8px;
 }
 
-
 .subs__step li {
   list-style: disc;
   text-align: left;
@@ -56,9 +55,12 @@
 ul.subs__step {
   padding-left: 50px;
 }
+
 .subs-banks {
   text-align: center;
+  padding: 30px 15px;
 }
+
 .subs-bank-item {
   display: flex;
   flex-direction: column;
@@ -66,8 +68,9 @@ ul.subs__step {
   justify-content: center;
   margin-top: 50px;
 }
+
 .subs-bank-item span {
-  width: 120px;
+  width: 170px;
   margin: 10px 0;
 }
 
@@ -115,6 +118,7 @@ ul.subs__step {
   .subs-copy {
     margin: 30px;
     padding-top: 0px;
+    max-width: 62%;
   }
 
   .maiki-video iframe {
@@ -122,11 +126,20 @@ ul.subs__step {
     height: calc(230px * 1.78);
     margin-top: 100px;
   }
+
+  .subs-banks {
+    padding: 40px;
+  }
+  
 }
 
 @media screen and (min-width: 1024px) {
   .maiki-video iframe {
     width: 350px;
     height: calc(350px * 1.78);
+  }
+
+  .subs-copy {
+    max-width: 100%;
   }
 }
